@@ -1,2 +1,2 @@
 # python_exercise
-my own little exercise in python
+My own little exercise on python
