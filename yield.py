@@ -16,7 +16,7 @@ def generator(n):
 #cannot perform for i in num_generator a second time since generators can only be "used once".
 
 #iterables
-def list_fib(n):
+def get_fib_list(n):
     i, a, b = 0, 0, 1
     fib_list = []
     while True:
@@ -39,7 +39,7 @@ def fib_generator(n):
         i += 1 
 
 def main():
-	x, y = list_fib(10), fib_generator(10)
+	x, y = get_fib_list(10), fib_generator(10)
 	print (type(x), type(y))
 	for i in y:
 		print (i)
