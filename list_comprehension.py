@@ -14,7 +14,7 @@ l2=[l for l in l1 if l%2==0]
 #等同於
 '''
 for l in l1:
-   if l%3==0:
+   if l%2==0:
       l2.append(l)
 '''
 
